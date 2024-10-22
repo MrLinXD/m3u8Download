@@ -12,13 +12,13 @@ import net.m3u8.utils.Constant;
 
 public class M3u8Main {
 
-    private static final String M3U8URL = "https://youku.cdn-56.com/20180109/2SwCGxb4/index.m3u8";
+    private static final String M3U8URL = "https://hls.vdtuzv.com/videos4/f80f126e2183b4064381c1e658a4e653/f80f126e2183b4064381c1e658a4e653.m3u8?auth_key=1729607891-6717b8d304857-0-a63231dca82a8c6662dcb18dfd9abd87&v=3&time=0";
 
     public static void main(String[] args) {
 
         M3u8DownloadFactory.M3u8Download m3u8Download = M3u8DownloadFactory.getInstance(M3U8URL);
         //设置生成目录
-        m3u8Download.setDir("F://m3u8JavaTest");
+        m3u8Download.setDir("D:/tmp/file");
         //设置视频名称
         m3u8Download.setFileName("test");
         //设置线程数

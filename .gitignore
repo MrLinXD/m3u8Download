@@ -61,7 +61,7 @@ _site
 _data
 dist
 report.html
-/lib
+/src/main/resources/lib
 /es
 elasticsearch-*
 config/base.yaml
