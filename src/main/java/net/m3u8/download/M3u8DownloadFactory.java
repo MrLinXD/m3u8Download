@@ -263,9 +263,9 @@ public class M3u8DownloadFactory {
                     try {
                         //模拟http请求获取ts片段文件
                         URL url = new URL(urls);
-                        if (proxy ==null) {
+                        if (proxy == null) {
                             httpURLConnection = (HttpURLConnection) url.openConnection();
-                        }else {
+                        } else {
                             httpURLConnection = (HttpURLConnection) url.openConnection(proxy);
                         }
                         httpURLConnection.setConnectTimeout((int) timeoutMillisecond);
@@ -442,9 +442,9 @@ public class M3u8DownloadFactory {
             while (count <= retryCount) {
                 try {
                     URL url = new URL(urls);
-                    if (proxy ==null) {
+                    if (proxy == null) {
                         httpURLConnection = (HttpURLConnection) url.openConnection();
-                    }else {
+                    } else {
                         httpURLConnection = (HttpURLConnection) url.openConnection(proxy);
                     }
                     httpURLConnection.setConnectTimeout((int) timeoutMillisecond);

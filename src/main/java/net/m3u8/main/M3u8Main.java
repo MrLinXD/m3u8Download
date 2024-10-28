@@ -12,7 +12,7 @@ import net.m3u8.utils.Constant;
 
 public class M3u8Main {
 
-    private static final String M3U8URL = "https://hls.vdtuzv.com/videos4/f80f126e2183b4064381c1e658a4e653/f80f126e2183b4064381c1e658a4e653.m3u8?auth_key=1729607891-6717b8d304857-0-a63231dca82a8c6662dcb18dfd9abd87&v=3&time=0";
+    private static final String M3U8URL = "https://hls.vdtuzv.com/videos4/496b711d0772cf01d59cef86fea00c1f/496b711d0772cf01d59cef86fea00c1f.m3u8?auth_key=1730131668-671fb6d4578fb-0-b4fd5459e6a67b706c346ad266592f86&v=3&time=0";
 
     public static void main(String[] args) {
 
